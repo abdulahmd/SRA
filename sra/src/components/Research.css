@@ -2,6 +2,7 @@
     margin-top: 20px;
     font-size: 35px;
     color: #e7e7e7;
+    display: block;
     text-shadow:
       0 0 7px #cacaca,
       0 0 10px #bebebe,
@@ -15,5 +16,5 @@
 
 
 .Research1 {
-    width: 40%;
+    width: 250px;
 }
