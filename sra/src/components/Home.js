@@ -10,7 +10,7 @@ function Home() {
             <h3 className="neonSubTitle">Scientists, Researchers, and Innovators of tomorrow</h3>
 
 
-            <p><br></br><br></br>We are a group of aspiring High schoolers dedicated<br></br>to encouraging others among the youth
+            <p><br></br><br></br>We are a group of hard working High schoolers dedicated<br></br>to encouraging others among the youth
             <br></br>today to research about topics they are interested in. <br></br>We would appreciate support
             from our<br></br>community for our initiative.</p>
 
