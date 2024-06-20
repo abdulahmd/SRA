@@ -1,58 +1,69 @@
 body {
-    background-image: linear-gradient(to right, rgb(70, 238, 79), rgb(66, 180, 233));
+    background: linear-gradient(to right, rgb(70, 238, 79), rgb(66, 180, 233));
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-
-p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
+.Home {
     text-align: center;
-    color: #000000;
-    text-shadow:
-      0 0 7px #cacaca,
-      0 0 10px #bebebe,
-      0 0 21px #c0c0c0,
-      0 0 42px rgb(112, 255, 207),
-      0 0 82px rgb(0, 231, 154),
-      0 0 92px rgb(0, 197, 131),
-      0 0 102px #0fa,
-      0 0 151px rgb(0, 161, 108);
+    padding: 20px;
 }
 
-
-img {
-    width: 20%;
-    float: inline-start;
-    margin-left: 100px;
+.body {
+    max-width: 800px;
+    margin: auto;
 }
 
+.logo {
+    width: 40%;
+    margin: 0 auto 20px;
+    display: block;
+}
 
 .neonTitle {
     font-size: 80px;
     color: #fff;
     text-shadow:
-      0 0 7px #e2e2e2,
-      0 0 10px #ffffff,
-      0 0 21px #c0c0c0,
-      0 0 42px rgb(122, 255, 211),
-      0 0 82px #0fa,
-      0 0 92px #0fa,
-      0 0 102px #0fa,
-      0 0 151px #0fa;
+        0 0 7px #e2e2e2,
+        0 0 10px #ffffff,
+        0 0 21px #c0c0c0,
+        0 0 42px rgb(122, 255, 211),
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+    margin-bottom: 20px;
 }
-
 
 .neonSubTitle {
     margin-top: 20px;
     font-size: 35px;
     color: #e7e7e7;
     text-shadow:
-      0 0 7px #cacaca,
-      0 0 10px #bebebe,
-      0 0 21px #c0c0c0,
-      0 0 42px rgb(112, 255, 207),
-      0 0 82px rgb(0, 231, 154),
-      0 0 92px rgb(0, 197, 131),
-      0 0 102px #0fa,
-      0 0 151px rgb(0, 161, 108);
+        0 0 7px #cacaca,
+        0 0 10px #bebebe,
+        0 0 21px #c0c0c0,
+        0 0 42px rgb(112, 255, 207),
+        0 0 82px rgb(0, 231, 154),
+        0 0 92px rgb(0, 197, 131),
+        0 0 102px #0fa,
+        0 0 151px rgb(0, 161, 108);
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 30px;
+    color: #000;
+    text-shadow:
+        0 0 7px #cacaca,
+        0 0 10px #bebebe,
+        0 0 21px #c0c0c0,
+        0 0 42px rgb(112, 255, 207),
+        0 0 82px rgb(0, 231, 154),
+        0 0 92px rgb(0, 197, 131),
+        0 0 102px #0fa,
+        0 0 151px rgb(0, 161, 108);
+    line-height: 1.6;
+    margin-top: 20px;
 }

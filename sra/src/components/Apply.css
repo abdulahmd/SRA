@@ -1,0 +1,56 @@
+body {
+    background: linear-gradient(to right, rgb(70, 238, 79), rgb(66, 180, 233));
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;  /* Prevent horizontal scroll */
+}
+
+.Apply {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 100vh;  /* Ensure it takes at least the full height of the viewport */
+    overflow-y: auto;  /* Enable vertical scroll if content overflows */
+}
+
+
+.headerWrapper {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.neonSubTitle {
+    margin-top: 20px;
+    font-size: 35px;
+    color: #e7e7e7;
+    text-shadow:
+        0 0 7px #cacaca,
+        0 0 10px #bebebe,
+        0 0 21px #c0c0c0,
+        0 0 42px rgb(112, 255, 207),
+        0 0 82px rgb(0, 231, 154),
+        0 0 92px rgb(0, 197, 131),
+        0 0 102px #0fa,
+        0 0 151px rgb(0, 161, 108);
+}
+
+.formContainer {
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

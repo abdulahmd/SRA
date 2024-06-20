@@ -1,15 +1,26 @@
+import React from 'react';
 import './AboutUs.css';
-
+import NehalCard from './cards/nehalCard';
+import ArnavCard from './cards/arnavCard';
+import AbdullahCard from './cards/abdullahCard';
+import SaiCard from './cards/saiCard';
 
 function AboutUs() {
-  return (
-    <div className="AboutUs">
-        <div className="abt">
-            <h3>About Us</h3>
+    return (
+        <div className="AboutUs">
+            <div className="abt">
+                <div className="neonSubTitleWrapper">
+                    <h3 className="neonSubTitle">About Us</h3>
+                </div>
+                <div className="employeeCards">
+                    <NehalCard />
+                    <ArnavCard />
+                    <AbdullahCard />
+                    <SaiCard />
+                </div>
+            </div>
         </div>
-    </div>
-  );
+    );
 }
-
 
 export default AboutUs;
