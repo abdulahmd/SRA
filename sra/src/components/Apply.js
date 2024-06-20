@@ -5,7 +5,7 @@ function Apply() {
     return (
         <div className="Apply">
             <div className="headerWrapper">
-                <h3 className="neonSubTitle">Apply</h3>
+                <h2 className="neonSubTitle">Apply</h2>
             </div>
             <div className="formContainer">
                 <iframe 

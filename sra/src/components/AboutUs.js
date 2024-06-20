@@ -10,7 +10,7 @@ function AboutUs() {
         <div className="AboutUs">
             <div className="abt">
                 <div className="neonSubTitleWrapper">
-                    <h3 className="neonSubTitle">About Us</h3>
+                    <h2 className="neonSubTitle">About Us</h2>
                 </div>
                 <div className="employeeCards">
                     <NehalCard />
